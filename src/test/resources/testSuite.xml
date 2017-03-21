@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="tests" thread-count="4">
+  <test verbose="2" name="TS_01_ValidateLogin">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_01_ValidateLogin"/>
+    </classes>
+  </test>
+  <test verbose="2" name="TS_02_VerifyHomePage">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_02_VerifyHomePage"/>
+    </classes>
+  </test> 
+  <test verbose="2" name="TS_03_Verify_AccountTab_SubLinkNavigation">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_03_Verify_AccountTab_SubLinkNavigation"/>
+    </classes>
+  </test> 
+  <test verbose="2" name="TS_04_Verify_AccountTab_AccountSettingsPage">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_04_Verify_AccountTab_AccountSettingsPage"/>
+    </classes>
+  </test>
+  
+  <test verbose="2" name="TS_05_Verify_AccountTab_SchoolReportPage">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_05_Verify_AccountTab_SchoolReportPage"/>
+    </classes>
+  </test>
+  <test verbose="2" name="TS_07_Verify_AccountTab_School_PreviewPage">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_07_Verify_AccountTab_School_PreviewPage"/>
+    </classes>
+  </test> 
+  <test verbose="2" name="TS_08_Verify_SchoolPreviewPage_AddTestCaseScreen">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_08_Verify_SchoolPreviewPage_AddTestCaseScreen"/>
+    </classes>
+  </test> 
+  <test verbose="2" name="TS_09_Verify_SchoolPreviewPage_EditTestCaseScreen">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_09_Verify_SchoolPreviewPage_EditTestCaseScreen"/>
+    </classes>
+  </test>
+  <test verbose="2" name="TS_10_Validate_NetPrice_SubLinks_Navigation">
+    <classes>
+      <class name="com.overture.npc.testcases.TS_10_Validate_NetPrice_SubLinks_Navigation"/>
+    </classes>
+  </test>  
+</suite>
